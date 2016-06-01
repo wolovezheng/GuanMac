@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F7E0EA1CFEBDAF009850B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F7E0E91CFEBDAF009850B1 /* AppDelegate.m */; };
+		02F7E0ED1CFEBDAF009850B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F7E0EC1CFEBDAF009850B1 /* main.m */; };
+		02F7E0F01CFEBDAF009850B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F7E0EF1CFEBDAF009850B1 /* ViewController.m */; };
+		02F7E0F21CFEBDAF009850B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F7E0F11CFEBDAF009850B1 /* Assets.xcassets */; };
+		02F7E0F51CFEBDAF009850B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F7E0F31CFEBDAF009850B1 /* Main.storyboard */; };
+		02F7E1001CFEBDAF009850B1 /* GuanMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F7E0FF1CFEBDAF009850B1 /* GuanMacTests.m */; };
+		02F7E10B1CFEBDAF009850B1 /* GuanMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F7E10A1CFEBDAF009850B1 /* GuanMacUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02F7E0FC1CFEBDAF009850B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F7E0DD1CFEBDAF009850B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F7E0E41CFEBDAF009850B1;
+			remoteInfo = GuanMac;
+		};
+		02F7E1071CFEBDAF009850B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F7E0DD1CFEBDAF009850B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F7E0E41CFEBDAF009850B1;
+			remoteInfo = GuanMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F7E0E51CFEBDAF009850B1 /* GuanMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuanMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F7E0E81CFEBDAF009850B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02F7E0E91CFEBDAF009850B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02F7E0EC1CFEBDAF009850B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02F7E0EE1CFEBDAF009850B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02F7E0EF1CFEBDAF009850B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02F7E0F11CFEBDAF009850B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02F7E0F41CFEBDAF009850B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02F7E0F61CFEBDAF009850B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F7E0FB1CFEBDAF009850B1 /* GuanMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuanMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F7E0FF1CFEBDAF009850B1 /* GuanMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuanMacTests.m; sourceTree = "<group>"; };
+		02F7E1011CFEBDAF009850B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F7E1061CFEBDAF009850B1 /* GuanMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuanMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F7E10A1CFEBDAF009850B1 /* GuanMacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuanMacUITests.m; sourceTree = "<group>"; };
+		02F7E10C1CFEBDAF009850B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F7E0E21CFEBDAF009850B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F7E0F81CFEBDAF009850B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F7E1031CFEBDAF009850B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F7E0DC1CFEBDAF009850B1 = {
+			isa = PBXGroup;
+			children = (
+				02F7E0E71CFEBDAF009850B1 /* GuanMac */,
+				02F7E0FE1CFEBDAF009850B1 /* GuanMacTests */,
+				02F7E1091CFEBDAF009850B1 /* GuanMacUITests */,
+				02F7E0E61CFEBDAF009850B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02F7E0E61CFEBDAF009850B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F7E0E51CFEBDAF009850B1 /* GuanMac.app */,
+				02F7E0FB1CFEBDAF009850B1 /* GuanMacTests.xctest */,
+				02F7E1061CFEBDAF009850B1 /* GuanMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02F7E0E71CFEBDAF009850B1 /* GuanMac */ = {
+			isa = PBXGroup;
+			children = (
+				02F7E0E81CFEBDAF009850B1 /* AppDelegate.h */,
+				02F7E0E91CFEBDAF009850B1 /* AppDelegate.m */,
+				02F7E0EE1CFEBDAF009850B1 /* ViewController.h */,
+				02F7E0EF1CFEBDAF009850B1 /* ViewController.m */,
+				02F7E0F11CFEBDAF009850B1 /* Assets.xcassets */,
+				02F7E0F31CFEBDAF009850B1 /* Main.storyboard */,
+				02F7E0F61CFEBDAF009850B1 /* Info.plist */,
+				02F7E0EB1CFEBDAF009850B1 /* Supporting Files */,
+			);
+			path = GuanMac;
+			sourceTree = "<group>";
+		};
+		02F7E0EB1CFEBDAF009850B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02F7E0EC1CFEBDAF009850B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02F7E0FE1CFEBDAF009850B1 /* GuanMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				02F7E0FF1CFEBDAF009850B1 /* GuanMacTests.m */,
+				02F7E1011CFEBDAF009850B1 /* Info.plist */,
+			);
+			path = GuanMacTests;
+			sourceTree = "<group>";
+		};
+		02F7E1091CFEBDAF009850B1 /* GuanMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02F7E10A1CFEBDAF009850B1 /* GuanMacUITests.m */,
+				02F7E10C1CFEBDAF009850B1 /* Info.plist */,
+			);
+			path = GuanMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02F7E0E41CFEBDAF009850B1 /* GuanMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F7E10F1CFEBDAF009850B1 /* Build configuration list for PBXNativeTarget "GuanMac" */;
+			buildPhases = (
+				02F7E0E11CFEBDAF009850B1 /* Sources */,
+				02F7E0E21CFEBDAF009850B1 /* Frameworks */,
+				02F7E0E31CFEBDAF009850B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuanMac;
+			productName = GuanMac;
+			productReference = 02F7E0E51CFEBDAF009850B1 /* GuanMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02F7E0FA1CFEBDAF009850B1 /* GuanMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F7E1121CFEBDAF009850B1 /* Build configuration list for PBXNativeTarget "GuanMacTests" */;
+			buildPhases = (
+				02F7E0F71CFEBDAF009850B1 /* Sources */,
+				02F7E0F81CFEBDAF009850B1 /* Frameworks */,
+				02F7E0F91CFEBDAF009850B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F7E0FD1CFEBDAF009850B1 /* PBXTargetDependency */,
+			);
+			name = GuanMacTests;
+			productName = GuanMacTests;
+			productReference = 02F7E0FB1CFEBDAF009850B1 /* GuanMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02F7E1051CFEBDAF009850B1 /* GuanMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F7E1151CFEBDAF009850B1 /* Build configuration list for PBXNativeTarget "GuanMacUITests" */;
+			buildPhases = (
+				02F7E1021CFEBDAF009850B1 /* Sources */,
+				02F7E1031CFEBDAF009850B1 /* Frameworks */,
+				02F7E1041CFEBDAF009850B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F7E1081CFEBDAF009850B1 /* PBXTargetDependency */,
+			);
+			name = GuanMacUITests;
+			productName = GuanMacUITests;
+			productReference = 02F7E1061CFEBDAF009850B1 /* GuanMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02F7E0DD1CFEBDAF009850B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = guan;
+				TargetAttributes = {
+					02F7E0E41CFEBDAF009850B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					02F7E0FA1CFEBDAF009850B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 02F7E0E41CFEBDAF009850B1;
+					};
+					02F7E1051CFEBDAF009850B1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 02F7E0E41CFEBDAF009850B1;
+					};
+				};
+			};
+			buildConfigurationList = 02F7E0E01CFEBDAF009850B1 /* Build configuration list for PBXProject "GuanMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02F7E0DC1CFEBDAF009850B1;
+			productRefGroup = 02F7E0E61CFEBDAF009850B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02F7E0E41CFEBDAF009850B1 /* GuanMac */,
+				02F7E0FA1CFEBDAF009850B1 /* GuanMacTests */,
+				02F7E1051CFEBDAF009850B1 /* GuanMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02F7E0E31CFEBDAF009850B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F7E0F21CFEBDAF009850B1 /* Assets.xcassets in Resources */,
+				02F7E0F51CFEBDAF009850B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F7E0F91CFEBDAF009850B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F7E1041CFEBDAF009850B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02F7E0E11CFEBDAF009850B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F7E0F01CFEBDAF009850B1 /* ViewController.m in Sources */,
+				02F7E0ED1CFEBDAF009850B1 /* main.m in Sources */,
+				02F7E0EA1CFEBDAF009850B1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F7E0F71CFEBDAF009850B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F7E1001CFEBDAF009850B1 /* GuanMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F7E1021CFEBDAF009850B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F7E10B1CFEBDAF009850B1 /* GuanMacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02F7E0FD1CFEBDAF009850B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F7E0E41CFEBDAF009850B1 /* GuanMac */;
+			targetProxy = 02F7E0FC1CFEBDAF009850B1 /* PBXContainerItemProxy */;
+		};
+		02F7E1081CFEBDAF009850B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F7E0E41CFEBDAF009850B1 /* GuanMac */;
+			targetProxy = 02F7E1071CFEBDAF009850B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02F7E0F31CFEBDAF009850B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F7E0F41CFEBDAF009850B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02F7E10D1CFEBDAF009850B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		02F7E10E1CFEBDAF009850B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		02F7E1101CFEBDAF009850B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuanMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GuanMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02F7E1111CFEBDAF009850B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuanMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GuanMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02F7E1131CFEBDAF009850B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuanMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GuanMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuanMac.app/Contents/MacOS/GuanMac";
+			};
+			name = Debug;
+		};
+		02F7E1141CFEBDAF009850B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuanMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GuanMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuanMac.app/Contents/MacOS/GuanMac";
+			};
+			name = Release;
+		};
+		02F7E1161CFEBDAF009850B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuanMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GuanMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GuanMac;
+			};
+			name = Debug;
+		};
+		02F7E1171CFEBDAF009850B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GuanMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GuanMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GuanMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F7E0E01CFEBDAF009850B1 /* Build configuration list for PBXProject "GuanMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F7E10D1CFEBDAF009850B1 /* Debug */,
+				02F7E10E1CFEBDAF009850B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F7E10F1CFEBDAF009850B1 /* Build configuration list for PBXNativeTarget "GuanMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F7E1101CFEBDAF009850B1 /* Debug */,
+				02F7E1111CFEBDAF009850B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02F7E1121CFEBDAF009850B1 /* Build configuration list for PBXNativeTarget "GuanMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F7E1131CFEBDAF009850B1 /* Debug */,
+				02F7E1141CFEBDAF009850B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02F7E1151CFEBDAF009850B1 /* Build configuration list for PBXNativeTarget "GuanMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F7E1161CFEBDAF009850B1 /* Debug */,
+				02F7E1171CFEBDAF009850B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02F7E0DD1CFEBDAF009850B1 /* Project object */;
+}
