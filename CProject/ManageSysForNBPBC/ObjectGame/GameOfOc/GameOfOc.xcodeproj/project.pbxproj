@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0268463D1E31ED710083FB57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0268463C1E31ED710083FB57 /* AppDelegate.m */; };
+		026846401E31ED710083FB57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0268463F1E31ED710083FB57 /* main.m */; };
+		026846431E31ED720083FB57 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 026846421E31ED720083FB57 /* GameView.m */; };
+		026846461E31ED720083FB57 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026846451E31ED720083FB57 /* GameViewController.m */; };
+		026846481E31ED720083FB57 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 026846471E31ED720083FB57 /* art.scnassets */; };
+		0268464A1E31ED720083FB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 026846491E31ED720083FB57 /* Assets.xcassets */; };
+		0268464D1E31ED720083FB57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0268464B1E31ED720083FB57 /* MainMenu.xib */; };
+		026846581E31ED720083FB57 /* GameOfOcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 026846571E31ED720083FB57 /* GameOfOcTests.m */; };
+		026846631E31ED720083FB57 /* GameOfOcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 026846621E31ED720083FB57 /* GameOfOcUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		026846541E31ED720083FB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026846301E31ED710083FB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026846371E31ED710083FB57;
+			remoteInfo = GameOfOc;
+		};
+		0268465F1E31ED720083FB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 026846301E31ED710083FB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 026846371E31ED710083FB57;
+			remoteInfo = GameOfOc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026846381E31ED710083FB57 /* GameOfOc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfOc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0268463B1E31ED710083FB57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0268463C1E31ED710083FB57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0268463F1E31ED710083FB57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		026846411E31ED710083FB57 /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		026846421E31ED720083FB57 /* GameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		026846441E31ED720083FB57 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		026846451E31ED720083FB57 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		026846471E31ED720083FB57 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		026846491E31ED720083FB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0268464C1E31ED720083FB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0268464E1E31ED720083FB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		026846531E31ED720083FB57 /* GameOfOcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfOcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		026846571E31ED720083FB57 /* GameOfOcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOfOcTests.m; sourceTree = "<group>"; };
+		026846591E31ED720083FB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0268465E1E31ED720083FB57 /* GameOfOcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfOcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		026846621E31ED720083FB57 /* GameOfOcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOfOcUITests.m; sourceTree = "<group>"; };
+		026846641E31ED720083FB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		026846351E31ED710083FB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026846501E31ED720083FB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0268465B1E31ED720083FB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0268462F1E31ED710083FB57 = {
+			isa = PBXGroup;
+			children = (
+				0268463A1E31ED710083FB57 /* GameOfOc */,
+				026846561E31ED720083FB57 /* GameOfOcTests */,
+				026846611E31ED720083FB57 /* GameOfOcUITests */,
+				026846391E31ED710083FB57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		026846391E31ED710083FB57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				026846381E31ED710083FB57 /* GameOfOc.app */,
+				026846531E31ED720083FB57 /* GameOfOcTests.xctest */,
+				0268465E1E31ED720083FB57 /* GameOfOcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0268463A1E31ED710083FB57 /* GameOfOc */ = {
+			isa = PBXGroup;
+			children = (
+				0268463B1E31ED710083FB57 /* AppDelegate.h */,
+				0268463C1E31ED710083FB57 /* AppDelegate.m */,
+				026846411E31ED710083FB57 /* GameView.h */,
+				026846421E31ED720083FB57 /* GameView.m */,
+				026846441E31ED720083FB57 /* GameViewController.h */,
+				026846451E31ED720083FB57 /* GameViewController.m */,
+				026846471E31ED720083FB57 /* art.scnassets */,
+				026846491E31ED720083FB57 /* Assets.xcassets */,
+				0268464B1E31ED720083FB57 /* MainMenu.xib */,
+				0268464E1E31ED720083FB57 /* Info.plist */,
+				0268463E1E31ED710083FB57 /* Supporting Files */,
+			);
+			path = GameOfOc;
+			sourceTree = "<group>";
+		};
+		0268463E1E31ED710083FB57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0268463F1E31ED710083FB57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		026846561E31ED720083FB57 /* GameOfOcTests */ = {
+			isa = PBXGroup;
+			children = (
+				026846571E31ED720083FB57 /* GameOfOcTests.m */,
+				026846591E31ED720083FB57 /* Info.plist */,
+			);
+			path = GameOfOcTests;
+			sourceTree = "<group>";
+		};
+		026846611E31ED720083FB57 /* GameOfOcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				026846621E31ED720083FB57 /* GameOfOcUITests.m */,
+				026846641E31ED720083FB57 /* Info.plist */,
+			);
+			path = GameOfOcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		026846371E31ED710083FB57 /* GameOfOc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026846671E31ED720083FB57 /* Build configuration list for PBXNativeTarget "GameOfOc" */;
+			buildPhases = (
+				026846341E31ED710083FB57 /* Sources */,
+				026846351E31ED710083FB57 /* Frameworks */,
+				026846361E31ED710083FB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameOfOc;
+			productName = GameOfOc;
+			productReference = 026846381E31ED710083FB57 /* GameOfOc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		026846521E31ED720083FB57 /* GameOfOcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0268466A1E31ED720083FB57 /* Build configuration list for PBXNativeTarget "GameOfOcTests" */;
+			buildPhases = (
+				0268464F1E31ED720083FB57 /* Sources */,
+				026846501E31ED720083FB57 /* Frameworks */,
+				026846511E31ED720083FB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026846551E31ED720083FB57 /* PBXTargetDependency */,
+			);
+			name = GameOfOcTests;
+			productName = GameOfOcTests;
+			productReference = 026846531E31ED720083FB57 /* GameOfOcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0268465D1E31ED720083FB57 /* GameOfOcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0268466D1E31ED720083FB57 /* Build configuration list for PBXNativeTarget "GameOfOcUITests" */;
+			buildPhases = (
+				0268465A1E31ED720083FB57 /* Sources */,
+				0268465B1E31ED720083FB57 /* Frameworks */,
+				0268465C1E31ED720083FB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026846601E31ED720083FB57 /* PBXTargetDependency */,
+			);
+			name = GameOfOcUITests;
+			productName = GameOfOcUITests;
+			productReference = 0268465E1E31ED720083FB57 /* GameOfOcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		026846301E31ED710083FB57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = guanPBC;
+				TargetAttributes = {
+					026846371E31ED710083FB57 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					026846521E31ED720083FB57 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 026846371E31ED710083FB57;
+					};
+					0268465D1E31ED720083FB57 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 026846371E31ED710083FB57;
+					};
+				};
+			};
+			buildConfigurationList = 026846331E31ED710083FB57 /* Build configuration list for PBXProject "GameOfOc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0268462F1E31ED710083FB57;
+			productRefGroup = 026846391E31ED710083FB57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				026846371E31ED710083FB57 /* GameOfOc */,
+				026846521E31ED720083FB57 /* GameOfOcTests */,
+				0268465D1E31ED720083FB57 /* GameOfOcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		026846361E31ED710083FB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0268464A1E31ED720083FB57 /* Assets.xcassets in Resources */,
+				026846481E31ED720083FB57 /* art.scnassets in Resources */,
+				0268464D1E31ED720083FB57 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		026846511E31ED720083FB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0268465C1E31ED720083FB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		026846341E31ED710083FB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026846461E31ED720083FB57 /* GameViewController.m in Sources */,
+				026846431E31ED720083FB57 /* GameView.m in Sources */,
+				026846401E31ED710083FB57 /* main.m in Sources */,
+				0268463D1E31ED710083FB57 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0268464F1E31ED720083FB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026846581E31ED720083FB57 /* GameOfOcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0268465A1E31ED720083FB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026846631E31ED720083FB57 /* GameOfOcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		026846551E31ED720083FB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026846371E31ED710083FB57 /* GameOfOc */;
+			targetProxy = 026846541E31ED720083FB57 /* PBXContainerItemProxy */;
+		};
+		026846601E31ED720083FB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 026846371E31ED710083FB57 /* GameOfOc */;
+			targetProxy = 0268465F1E31ED720083FB57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0268464B1E31ED720083FB57 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0268464C1E31ED720083FB57 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		026846651E31ED720083FB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		026846661E31ED720083FB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		026846681E31ED720083FB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GameOfOc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GameOfOc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		026846691E31ED720083FB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GameOfOc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GameOfOc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0268466B1E31ED720083FB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GameOfOcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GameOfOcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameOfOc.app/Contents/MacOS/GameOfOc";
+			};
+			name = Debug;
+		};
+		0268466C1E31ED720083FB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GameOfOcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GameOfOcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameOfOc.app/Contents/MacOS/GameOfOc";
+			};
+			name = Release;
+		};
+		0268466E1E31ED720083FB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GameOfOcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GameOfOcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GameOfOc;
+			};
+			name = Debug;
+		};
+		0268466F1E31ED720083FB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GameOfOcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbpbc.GameOfOcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GameOfOc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026846331E31ED710083FB57 /* Build configuration list for PBXProject "GameOfOc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026846651E31ED720083FB57 /* Debug */,
+				026846661E31ED720083FB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026846671E31ED720083FB57 /* Build configuration list for PBXNativeTarget "GameOfOc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026846681E31ED720083FB57 /* Debug */,
+				026846691E31ED720083FB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0268466A1E31ED720083FB57 /* Build configuration list for PBXNativeTarget "GameOfOcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0268466B1E31ED720083FB57 /* Debug */,
+				0268466C1E31ED720083FB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0268466D1E31ED720083FB57 /* Build configuration list for PBXNativeTarget "GameOfOcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0268466E1E31ED720083FB57 /* Debug */,
+				0268466F1E31ED720083FB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 026846301E31ED710083FB57 /* Project object */;
+}
